@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#pagina{
+    position: relative;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn{
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    background: transparent;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
